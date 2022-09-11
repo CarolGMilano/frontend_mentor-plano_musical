@@ -9,7 +9,8 @@
     }
     
     .card {
-        max-width: 400px;
+        max-width: 452px;
+        max-height: 700px;
     }
 
     .card__conteudo {
