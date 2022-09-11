@@ -9,16 +9,11 @@
     }
     
     .card {
-        width: 452px;
-        height: 700px;
+        width: 450px;
     }
 
     .card__conteudo {
         row-gap: 1.5rem;
-    }
-    
-    .conteudo__titulo {
-        font-size: 28px;
     }
 
     .conteudo__container--mudar:hover {
