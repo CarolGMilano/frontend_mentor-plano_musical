@@ -1,0 +1,30 @@
+@media screen and (min-width: 500px) {
+    section {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        margin: 0;
+        max-width: 100vw;
+    }
+    
+    .card {
+        max-width: 400px;
+    }
+
+    .card__conteudo {
+        row-gap: 1.5rem;
+    }
+
+    .conteudo__container--mudar:hover {
+        color: var(--roxo_claro);
+    }
+
+    .conteudo__btn--confirmar:hover {
+        background-color: var(--roxo_claro);
+    }
+
+    .conteudo__btn--cancelar:hover {
+        color: var(--azul_escuro);
+    }
+}

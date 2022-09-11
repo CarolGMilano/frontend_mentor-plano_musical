@@ -1,0 +1,22 @@
+@import url('card.css');
+@import url('responsividade.css');
+
+:root {
+    --azul: hsl(245, 75%, 52%);
+    --azul_claro: hsl(224, 23%, 55%);
+    --azul_escuro: hsl(223, 47%, 23%);
+    --branco: hsl(360, 0%, 100%);
+    --branco_alternativo: hsl(225, 100%, 94%);
+    --cinza: hsl(230, 75%, 98%);
+    --roxo_claro: hsl(244, 82%, 68%);
+
+    --fonte: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: var(--branco_alternativo);
+    font-family: var(--fonte);
+    background-image: url('../img/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
