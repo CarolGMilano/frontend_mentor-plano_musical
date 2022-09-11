@@ -16,6 +16,10 @@
     .card__conteudo {
         row-gap: 1.5rem;
     }
+    
+    .conteudo__titulo {
+        font-size: 28px;
+    }
 
     .conteudo__container--mudar:hover {
         color: var(--roxo_claro);
